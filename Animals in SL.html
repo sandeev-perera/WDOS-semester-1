@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/icons/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Animals in Sri Lanka</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="images/logo.webp" alt="logo" />
+      </div>
+      <div class="hamburger">
+        <img src="images/hamburger-menu-svgrepo-com (1).svg" alt="hamburger" />
+      </div>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="Introduction.html">Introduction</a>
+        <a href="Department.html">Department</a>
+        <a href="Leopards.html">SL leopards</a>
+        <a href="Animals in SL.html">Animals in SL</a>
+      </div>
+      <div class="menu-mobile">
+        <a href="index.html">Home</a>
+        <a href="Introduction.html">Introduction</a>
+        <a href="Department.html">Department</a>
+        <a href="Leopards.html">SL leopards</a>
+        <a href="Animals in SL.html">Animals in SL</a>
+      </div>
+    </nav>
+    <main>
+      <section class="banner">
+        <img src="images/banner3.webp" alt="banner" />
+        <p>Sri Lanka Animals</p>
+      </section>
+
+      <section class="animals">
+        <div class="section-title">Animals in Sri Lanka</div>
+        <div class="animal">
+          <h3 class="sub-title">Ceylon Spitting Cobra (Naja naja naja):</h3>
+          <div class="double-boxes">
+            <div class="information">
+              <p>
+                The Ceylon Spitting Cobra, also known as the Sri Lankan cobra,
+                is a venomous snake endemic to the island. With its hooded
+                appearance and the ability to spit venom accurately at threats,
+                this snake is a fascinating yet potentially dangerous species.
+                Found in a range of habitats, including forests and agricultural
+                areas, the Ceylon Spitting Cobra plays a vital role in
+                controlling rodent populations.
+              </p>
+            </div>
+            <div class="image">
+              <img src="images/snake.webp" alt="snake" />
+            </div>
+          </div>
+        </div>
+
+        <div class="animal">
+          <h3 class="sub-title">Sri Lankan Sloth Bear</h3>
+          <div class="double-boxes reverse">
+            <div class="image">
+              <img src="images/sloth-bear.webp" alt="animal" />
+            </div>
+            <div class="information">
+              <p>
+                The Sri Lankan Sloth Bear is a subspecies of the sloth bear
+                native to Sri Lanka. Distinguished by its shaggy fur and
+                distinct facial markings, these bears are primarily found in the
+                dry lowland forests. Sri Lankan Sloth Bears are omnivores,
+                feeding on a variety of food items, including insects, fruits,
+                and occasionally small mammals. The uniqueness of their
+                appearance and behavior makes them a charismatic species in Sri
+                Lanka's wildlife.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="animal">
+          <h3 class="sub-title">Purple-Faced Langur</h3>
+          <div class="double-boxes">
+            <div class="information">
+              <p>
+                The Purple-Faced Langur, or "Lankavanam Monkey," is an endemic
+                primate species found exclusively in Sri Lanka. Recognized for
+                its striking purple face and grayish-brown fur, this langur
+                inhabits the island's montane forests. Due to habitat loss and
+                fragmentation, the Purple-Faced Langur faces conservation
+                challenges, making its protection vital for preserving Sri
+                Lanka's unique biodiversity.
+              </p>
+            </div>
+            <div class="image">
+              <img src="images/animal2.webp" alt="animal" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="wild-life-locations">
+        <h1 class="section-title">Explore More about</h1>
+        <ul>
+          <li><a href="Yala.html">Yala National Park</a></li>
+          <li><a href="Wilpattu.html">Willpattu National Park</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer_tags">
+          <div class="footer_title"><p>Contact Us</p></div>
+          <a href="#">wildlife@gmail.com</a>
+          <a href="#">+94 112 888 585</a>
+          <a href="#">Battaramulla</a>
+        </div>
+        <div class="footer_tags">
+          <div class="footer_title"><p>Usefull Information</p></div>
+          <a href="index.html">Home</a>
+          <a href="Introduction.html">Introduction</a>
+          <a href="Department.html">Department</a>
+          <a href="Leopards.html">SL leopards</a>
+          <a href="Animals in SL.html">Animals in SL</a>
+        </div>
+        <div class="footer_tags footer_icons">
+          <div class="footer_title"><p>Visit</p></div>
+          <a href="https://twitter.com/slwcs_org?lang=en"
+            ><img src="images/icons/twitter.png" alt="twitter"
+          /></a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            ><img src="images/icons/youtube.png" alt="youtube"
+          /></a>
+          <a href="https://www.instagram.com/srilankawildlife/?hl=en"
+            ><img src="images/icons/instagram.png" alt="instagram"
+          /></a>
+        </div>
+      </div>
+      <div class="footer-line">
+        <p>&copy; Wildlife Sri Lanka | All Rights Reserved</p>
+      </div>
+    </footer>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const menu = document.querySelector(".menu-mobile");
+      hamburger.addEventListener("click", () => {
+        menu.classList.toggle("open");
+      });
+    </script>
+  </body>
+</html>
